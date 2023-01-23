@@ -14,3 +14,4 @@
 # Debugging
 
 - Fix background-color not reaching bottom of page
+- Fix month using index 0
