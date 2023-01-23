@@ -54,6 +54,13 @@ h2 {
   content: "❧  ";
 }
 
+.footer-element-div {
+  margin: 0.2rem;
+}
+
+.footer-link {
+  
+}
 /* Ids */
 
 #hobby-list-div {
