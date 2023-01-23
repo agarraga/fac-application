@@ -1,0 +1,65 @@
+/* Variables */
+
+:root {
+  --off-white: #f2f2fe;
+  --dark-grey: #0f120f;
+}
+
+/* Main elements */
+
+body {
+  background-color: var(--off-white);
+}
+
+main {
+  color: var(--dark-grey);
+  margin: 0;
+}
+
+header {
+  background-color: var(--dark-grey);
+  color: var(--off-white);
+  padding: 10px;
+}
+
+footer {
+  background-color: var(--dark-grey);
+  color: var(--off-white);
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+/* Elements */
+
+h1 {
+  font-size: 23pt;
+}
+
+h2 {
+  font-size: 18pt;
+}
+
+/* Classes */
+
+.image {
+  width: 180px;
+  border: solid var(--dark-grey) 2px;
+  margin: 0.2rem;
+}
+
+.hobby-list-element::before{
+  content: "❧  ";
+}
+
+/* Ids */
+
+#hobby-list-div {
+  padding: 6px;
+}
+
+#hobby-list-title {
+  padding: 2px;
+}

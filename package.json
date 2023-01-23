@@ -4,7 +4,8 @@
   "description": "Firtst project for the founders and coders application",
   "main": "public/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browsersync": "browser-sync public -w"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/agarrigu/fac-application/issues"
   },
-  "homepage": "https://github.com/agarrigu/fac-application#readme"
+  "homepage": "https://github.com/agarrigu/fac-application#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.11"
+  }
 }
