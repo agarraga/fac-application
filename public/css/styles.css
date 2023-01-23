@@ -19,7 +19,14 @@ main {
 header {
   background-color: var(--dark-grey);
   color: var(--off-white);
-  padding: 10px;
+  padding: 12px;
+}
+
+header::after {
+  /* Oh boy, oh boy, oh boy, very hacky, Not a fan. TODO: Become a fan.*/
+  content: "";
+  clear: both;
+  display: table;
 }
 
 footer {
@@ -58,10 +65,15 @@ h2 {
   margin: 0.2rem;
 }
 
-.footer-link {
-  
-}
 /* Ids */
+
+#title-div {
+  float: left;
+}
+
+#date-div {
+  float: right;
+}
 
 #hobby-list-div {
   padding: 6px;
