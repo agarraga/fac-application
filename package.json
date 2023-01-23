@@ -2,7 +2,7 @@
   "name": "fac-application-agarrigu-1",
   "version": "1.0.0",
   "description": "Firtst project for the founders and coders application",
-  "main": "index.js",
+  "main": "public/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
